@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    z-index: 10;
+    overflow: hidden;
+}
+
+canvas {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+input {
+    position: absolute;
+    left: 20;
+    top: 20;
+    z-index: 20;
+}
+
+label {
+    position: absolute;
+    left: 50;
+    top: 20;
+    z-index: 20;
+    font-family: monospace;
+}
+
+div {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(212, 215, 218);
+    z-index: -10;
+    position: absolute;
+}
+
+button {
+    z-index: 20;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(168, 129, 207);
+}
+
+#up {
+    top: 70px;
+    left: 70px;
+}
+
+#left {
+    left: 20px;
+    top: 120px;
+}
+#right {
+    left: 120px;
+    top: 120px;
+}
+#down {
+    top: 170px;
+    left: 70px;
+}
